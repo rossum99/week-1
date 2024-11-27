@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{float a,b;
+printf("enter the numbers:");
+scanf("%f %f",&a,&b);
+printf("the product of %f and %f as a float is %f and as an integer is %d",a,b,a*b,(int)(a*b));
+return 0;
+}
